@@ -1,16 +1,50 @@
-# kilo2
+# kilo2-Day2
 
-A new Flutter project.
+What did I learn?
 
-## Getting Started
+1.get user input from textfield!
+->>> this is textfield properties
+``` 
+TextField(
+                controller: controller,
+                textAlign: TextAlign.center,
+                decoration: const InputDecoration(hintText: '\$100.00'),
+                keyboardType:
+                    const TextInputType.numberWithOptions(decimal: true),
+              )
+```
 
-This project is a starting point for a Flutter application.
+before we need to create 
+final controller = TextEditingController();
+in textfield we have property called controller we neeed to assign our controller to it. 
 
-A few resources to get you started if this is your first Flutter project:
 
-- [Lab: Write your first Flutter app](https://flutter.dev/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.dev/docs/cookbook)
+2.  
+```
+if (tip != null)
+              Text(
+                tip!,
+                style:
+                    const TextStyle(fontSize: 30, fontWeight: FontWeight.bold),
+              ),
+```
+it means -> show only there is a value(it is not null) otherwise show nothing
 
-For help getting started with Flutter, view our
-[online documentation](https://flutter.dev/docs), which offers tutorials,
-samples, guidance on mobile development, and a full API reference.
+3. ToggleButton
+```
+ ToggleButtons(
+              fillColor: Colors.black,
+              selectedColor: Colors.white,
+              children: const [
+                Text('10%'),
+                Text('20%'),
+                Text('30%'),
+              ],
+              isSelected: isSelected,
+              onPressed: updateSelection,
+            ),
+            ```
+
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/60324587/178655839-8d8f3b83-15fa-4d37-b955-0ae198e275a7.png">
+
+
