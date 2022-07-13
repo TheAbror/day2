@@ -1,5 +1,5 @@
 # kilo2-Day2
-<img width="1440" alt="image" src="https://github.com/TheAbror/images/issues/2#issue-1302914264">
+<img width="1440" alt="image" src="https://user-images.githubusercontent.com/60324587/178657018-947b40e9-0c47-48fa-aec3-bba0dddbe01d.png">
 
 
 What did I learn?
