@@ -44,7 +44,24 @@ it means -> show only there is a value(it is not null) otherwise show nothing
               onPressed: updateSelection,
             ),
             ```
+so, basically toggle button gives us easy option to choose, (not difficult one i was using so far)
 
-<img width="1440" alt="image" src="https://user-images.githubusercontent.com/60324587/178655839-8d8f3b83-15fa-4d37-b955-0ae198e275a7.png">
-
+4. Difficult part
+```
+```
+ void calculateTip() {
+ ```
+    final totalAmount = double.parse(controller.text);
+    final selectedIndex = isSelected.indexWhere((element) => element);
+    final tipPercentage = [0.1, 0.2, 0.3][selectedIndex];
+    final tipTotal = (totalAmount * tipPercentage).toStringAsFixed(2);
+```
+    setState(() {
+      tip = '\$$tipTotal';
+    });
+  }
+```
+first we received our user-input value
+then we used the list of booleans...
+last we assigned empty tip to our result
 
