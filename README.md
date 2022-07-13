@@ -1,4 +1,6 @@
 # kilo2-Day2
+<img width="1440" alt="image" src="https://github.com/TheAbror/images/issues/2#issue-1302914264">
+
 
 What did I learn?
 
